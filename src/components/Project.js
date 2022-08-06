@@ -23,7 +23,7 @@ export default function Project() {
     <div>
     <main id="project" className='overflow-x-hidden bg-[#0a192f]  min-h-screen p-12 pt-[100px]' name="projects">
       <section className='container mx-auto'>
-          <h1 className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600 font-orbitron'>My projects</h1>
+          <h1 className='text-3xl font-bold inline border-b-4 text-gray-300 border-pink-600 font-orbitron'>My projects</h1>
           <h2 className='text-gray-300 py-4 mb-12'>
             Welcome to my projects page!
             </h2>
