@@ -10,7 +10,7 @@ const Contact = () => {
     <div name='contact' className=' overflow-x-hidden w-full h-[50%] bg-[#f5f5f5] flex justify-center items-center pt-[100px]'>
         <form   method='POST' action="https://getform.io/f/86ba8aba-d414-4508-99c3-9578ccce3e4d" className='flex flex-col max-w-[600px] w-full'>
             <div className='pb-8'>
-                <p className='text-2xl font-bold inline border-b-4 border-pink-600 text-veryDarkBlue pl-1 md:pl-0'>Contact</p>
+                <p className='text-2xl font-bold inline border-b-4 border-pink-600 text-veryDarkBlue pl-1 md:pl-0'>Contact Me</p>
                 <p className='text-veryDarkBlue py-4 pl-1 md:pl-0'>Submit the form below or shoot me an email - omejeemmanuel046@yahoo</p>
             </div>
             <input data-aos="flip-right" className='bg-[#ccd6f6] shadow shadow-[#040c16] p-2' type="text" placeholder='Name' name='name' />
