@@ -25,7 +25,7 @@ const Navbar = () => {
   window.addEventListener('scroll', changeBackground);
 
   return (
-    <div className={navBar ? 'navbar bg-[#0a192f] h-[80px] fixed z-10 w-full flex justify-between items-center px-4 text-gray-300 font-orbitron' : 
+    <div className={navBar ? 'overflow-x-hidden navbar bg-[#0a192f] h-[80px] fixed z-10 w-full flex justify-between items-center px-4 text-gray-300 font-orbitron' : 
                               'navbar bg-transparent h-[80px] fixed z-10 w-full flex justify-between items-center px-4 text-veryDarkBlue font-orbitron'}
     >
       <div className='md:mx-10 cursor-pointer'>
@@ -59,7 +59,7 @@ const Navbar = () => {
         className={
           !nav
             ? 'hidden'
-            : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center cursor-pointer'
+            : 'overflow-x-hidden absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center cursor-pointer'
         }
       >
         <li className='py-6 text-2xl'>

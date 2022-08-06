@@ -4,13 +4,13 @@ import Home from "./components/Home";
 import Footer from './components/Footer';
 import SinglePost from "./components/SinglePost";
 import Post from "./components/Post";
-
+import "./App.css"
 
 
 
 function App() {
   return (
-   <>
+   <div className='overflow-x-hidden'>
       <Router>
          <Routes>
            <Route path='/' exact element={<Home />} />
@@ -19,7 +19,7 @@ function App() {
          </Routes>
         <Footer />
         </Router>
-    </>
+    </div>
   );
 }
 

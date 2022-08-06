@@ -22,7 +22,7 @@ export default function Post() {
   return (
     <div>
       <NavBar />
-    <main className='bg-white min-h-screen p-12'>
+    <main className='overflow-x-hidden bg-white min-h-screen p-12'>
         <section className='container mx-auto' name="post">
             <h1 className='text-5xl flex justify-center mt-10 font-orbitron text-veryDarkBlue'>Latest News Update</h1>
             <h2 className='text-lg flex justify-center mb-12 font-pacifico text-veryDarkBlue'>Welcome to the latest news update </h2>

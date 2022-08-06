@@ -7,7 +7,7 @@ const Contact = () => {
     Aos.init({duration:3000})
   }, [])
   return (
-    <div name='contact' className='w-full h-[50%] bg-[#f5f5f5] flex justify-center items-center pt-[150px]'>
+    <div name='contact' className=' overflow-x-hidden w-full h-[50%] bg-[#f5f5f5] flex justify-center items-center pt-[100px]'>
         <form   method='POST' action="https://getform.io/f/86ba8aba-d414-4508-99c3-9578ccce3e4d" className='flex flex-col max-w-[600px] w-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-pink-600 text-veryDarkBlue pl-1 md:pl-0'>Contact</p>

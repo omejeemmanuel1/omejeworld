@@ -11,3 +11,13 @@
       background-size: 600px 1000px;
     }
 }
+
+.home {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.app {
+  overflow-x: hidden;
+  overflow: y;
+}
