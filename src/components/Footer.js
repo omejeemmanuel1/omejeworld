@@ -3,7 +3,7 @@ import { SocialIcon } from 'react-social-icons';
 
 export default function Footer() {
   return (
-    <div  className='overflow-x-hidden w-full h-[130px] bg-[#304146] pt-10 md:flex justify-center text-gray-300 '>
+    <div  className='overflow-hidden w-full h-[130px] bg-[#304146] pt-10 md:flex justify-center text-gray-300 '>
       {/* Container */}
       <p className='text-center mb-5'>Copyright&copy; Emmanuel Omeje 2022</p>
       <div className='md:hidden flex justify-center'>
