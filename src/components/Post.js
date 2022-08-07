@@ -24,7 +24,7 @@ export default function Post() {
       <NavBar />
     <main className='overflow-x-hidden bg-white min-h-screen p-12'>
         <section className='container mx-auto' name="post">
-            <h1 className='text-2xl md:text-4xl flex justify-center mt-10 font-orbitron text-veryDarkBlue'>Latest News Update</h1>
+            <h1 className='text-sm md:text-3xl flex justify-center mt-10 font-orbitron text-veryDarkBlue'>Latest News Update</h1>
             <h2 className='text-lg flex justify-center mb-12 font-pacifico text-veryDarkBlue'>Welcome to the latest news update </h2>
             <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-8 '>
                   {postData && postData.map((post, index) => (
