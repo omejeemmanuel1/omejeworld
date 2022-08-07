@@ -66,7 +66,7 @@ if (!singlePost) return <div>Loading...</div>;
                 style={{ height: "200px" }}
           />
         </header>
-        <div className='px-6 lg:px-48 py-8 lg:py-20 prose lg:prose-xl max-w-full'>
+        <div className='p-6 lg:px-48 lg:py-20 prose lg:prose-xl max-w-full'>
           <BlockContent 
             blocks={singlePost.body}
             projectId="m7yc7ong"
