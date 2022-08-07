@@ -31,10 +31,10 @@ export default function Post() {
                 <article>
                   <Link to={"/post/" + post.slug.current} key={post.slug.current}>
                     <span 
-                          className='block h-64 relative rounded shadow leading-snug bg-white border-l-8 border-pink-600'
+                          className='block h-[120px] md:h-64  relative rounded shadow leading-snug bg-white border-l-8 border-pink-600'
                           key={index}>
                         <img src={post.mainImage.asset.url} alt={post.mainImage.alt}
-                          className="h-64 w-72 rounded-r object-cover absolute" />
+                          className="h-[120px] md:h-64 w-72 rounded-r object-cover absolute" />
                         <span className='block relative h-full justify-end items-end pr-4 pb-4'>
                             <h3 className='text-gray-300 text-lg font-blog px-3 py-4 bg-[#0a192f] bg-opacity-75 rounded'>
                               {post.title}
