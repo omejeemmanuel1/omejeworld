@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { HiArrowNarrowRight } from 'react-icons/hi';
+import { HiArrowNarrowDown } from 'react-icons/hi';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 
@@ -33,7 +33,7 @@ const About = () => {
           <button data-aos="flip-up" className='mt-10 justify-center text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
             <a href="../assets/my resume.pdf" download>My Resume</a>
             <span className='group-hover:rotate-90 duration-300'>
-              <HiArrowNarrowRight className='ml-3 ' />
+              <HiArrowNarrowDown className='ml-3 ' />
             </span>
             </button>
       </div>
