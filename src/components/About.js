@@ -9,11 +9,11 @@ const About = () => {
     }, [])
 
   return (
-    <div id="about" name='about' className='w-full h-[800px] pt-[200px] md:h-[500px] bg-[#0a192f] -mt-[100px] md:mt-[200px] md:pt-[300px] text-gray-300'>
+    <div id="about" name='about' className='w-full h-[800px] md:h-[500px] bg-[#0a192f] -mt-[100px] md:mt-[200px] md:pt-[150px] text-gray-300'>
       <div className='flex flex-col justify-center items-center w-full h-full'>
         <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8 md:-mt-[200px]'>
-          <div className='sm:text-right pb-8 pl-4 -mt-[100px]'>
-            <p className='text-2xl font-bold text-justify inline border-b-4 border-pink-600'>
+          <div className='sm:text-right pb-8 pl-4'>
+            <p className='text-2xl font-bold text-justify inline border-b-4 border-pink-600 font-orbitron'>
               About Me
             </p>
           </div>
