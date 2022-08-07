@@ -9,10 +9,10 @@ const About = () => {
     }, [])
 
   return (
-    <div id="about" name='about' className='w-full h-[900px] bg-[#0a192f] -mt-[100px] md:-mt-0 text-gray-300'>
+    <div id="about" name='about' className='w-full h-[700px] pt-[200px] md:h-[500px] bg-[#0a192f] -mt-[100px] md:mt-[200px] md:pt-[300px] text-gray-300'>
       <div className='flex flex-col justify-center items-center w-full h-full'>
-        <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
-          <div className='sm:text-right pb-8 pl-4 -mt-[100px] md:-mt-0'>
+        <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8 md:-mt-[200px]'>
+          <div className='sm:text-right pb-8 pl-4 -mt-[100px]'>
             <p className='text-2xl font-bold text-justify inline border-b-4 border-pink-600'>
               About Me
             </p>
