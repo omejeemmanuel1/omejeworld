@@ -39,7 +39,7 @@ if (!singlePost) return <div>Loading...</div>;
   return (
     <div>
     <NavBar />
-    <main className='overflow-x-hidden bg-white min-h-screen p-12 mt-10'>
+    <main className='overflow-x-hidden bg-white min-h-screen p-6 mt-10'>
       <article className="container shadow-lg mx-auto bg-[#f5f5f5] rounded-lg">
         <header className='relative'>
           <div className='absolute h-full w-full flex items-center justify-center p-8'>
@@ -68,7 +68,7 @@ if (!singlePost) return <div>Loading...</div>;
                 style={{ height: "200px" }}
           />
         </header>
-        <div className='p-6 lg:px-48 lg:py-20 prose lg:prose-xl max-w-full'>
+        <div className='p-6 py-20 lg:px-48 lg:py-20 prose lg:prose-xl max-w-full'>
           <BlockContent 
             blocks={singlePost.body}
             projectId="m7yc7ong"
