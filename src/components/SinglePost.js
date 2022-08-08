@@ -44,7 +44,7 @@ if (!singlePost) return <div>Loading...</div>;
         <header className='relative'>
           <div className='absolute h-full w-full flex items-center justify-center p-8'>
             <div className='bg-white bg-opacity-75 rounded px-2'>
-              <h1 className='font-orbitron pt-6 text-sm md:text-3xl'>
+              <h1 className='font-orbitron pt-6 text-sm text-center md:text-3xl'>
                 {singlePost.title}
               </h1>
               <p className='pt-6 text-sm text-right'>{singlePost.publishedAt}</p>
