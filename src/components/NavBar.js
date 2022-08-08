@@ -30,12 +30,12 @@ const Navbar = () => {
   window.addEventListener('scroll', changeBackground);
 
   return (
-    <div className={navBar ? 'navbar bg-[#0a192f] h-[80px] fixed z-10 top-0 w-full flex justify-between items-center px-4 text-gray-300 font-orbitron' : 
-                              'navbar bg-transparent h-[80px] fixed z-10 top-0 w-full flex justify-between items-center px-4 text-gray-300 font-orbitron'}
+    <div className={navBar ? 'navbar bg-[#0a192f] h-[40px] md:h-[80px] fixed z-10 top-0 w-full flex justify-between items-center px-4 text-gray-300 font-orbitron' : 
+                              'navbar bg-transparent h-[40px] md:h-[80px] fixed z-10 top-0 w-full flex justify-between items-center px-4 text-gray-300 font-orbitron'}
     >
       <div className='md:mx-10 cursor-pointer'>
         <Link to='home' smooth={true} duration={500}>
-        <img src={Image} alt="omejeworld" style={{ width: '100px' }} />
+        <img src={Image} alt="omejeworld" className=' w-12 md:w-28' />
         </Link>
       </div>
 

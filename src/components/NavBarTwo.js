@@ -30,7 +30,7 @@ const Navbar = () => {
     >
       <div className='md:mx-10 cursor-pointer'>
         <Link to='home' smooth={true} duration={500}>
-        <img src={Image} alt='omejeworld' style={{ width: '100px' }} />
+        <img src={Image} alt='omejeworld' className=' w-12 md:w-28' />
         </Link>
       </div>
 
