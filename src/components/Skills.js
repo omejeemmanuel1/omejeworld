@@ -19,10 +19,10 @@ const Skills = () => {
         Aos.init({duration:3000})
     }, [])
   return (
-    <div  id="skills" name='skills' className='overflow-hidden w-full pt-[500px] h-[1100px] md:pt-[500px] md:h-[700px] md:min-h-screen  bg-[#f5f5f5] text-gray-300'>
+    <div  id="skills" name='skills' className='overflow-hidden w-full h-[1000px] md:pt-[500px] md:h-[700px] md:min-h-screen  bg-[#f5f5f5] text-gray-300'>
       {/* Container */}
-      <div className='max-w-[1000px] mx-auto  p-4 flex flex-col justify-center w-full h-full -mt-20 md:-mt-[200px]'>
-          <div className='text-veryDarkBlue -mt-[300px] md:-mt-0'>
+      <div className='max-w-[1000px] mx-auto  p-4 flex flex-col justify-center w-full h-full  md:-mt-[200px]'>
+          <div className='text-veryDarkBlue  md:-mt-0'>
               <p className='text-2xl font-bold inline border-b-4 border-pink-600 font-orbitron'>My Skills</p>
               <p className='py-4'>These are the technologies I've worked with</p>
           </div>
