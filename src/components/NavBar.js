@@ -83,7 +83,7 @@ const Navbar = () => {
         className={
           !nav
             ? 'hidden'
-            : 'absolute overflow-x-auto top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center cursor-pointer'
+            : 'absolute overflow-x-auto top-0 left-0 w-full h-screen bg-[#0a192f] text-gray-300 flex flex-col justify-center items-center cursor-pointer'
         }
       >
         <li className='py-6 text-2xl'>

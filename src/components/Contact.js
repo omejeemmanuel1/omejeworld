@@ -13,9 +13,9 @@ const Contact = () => {
                 <p className='text-2xl md:text-3xl font-bold inline border-b-4 border-pink-600 text-veryDarkBlue pl-1 md:pl-0 font-orbitron'>Contact Me</p>
                 <p className='text-veryDarkBlue py-4 pl-1 md:pl-0'>Submit the form below or shoot me an email - omejeemmanuel046@yahoo</p>
             </div>
-            <input data-aos="flip-right" className='bg-[#ccd6f6] shadow shadow-[#040c16] p-2' type="text" placeholder='Name' name='name' />
-            <input data-aos="flip-left"className='my-4 p-2 bg-[#ccd6f6] shadow shadow-[#040c16]' type="email" placeholder='Email' name='email' />
-            <textarea data-aos="flip-down"className='bg-[#ccd6f6] shadow shadow-[#040c16] p-2' name="message" rows="10" placeholder='Message'></textarea>
+            <input data-aos="flip-right" className='bg-[#ccd6f6] m-3 shadow shadow-[#040c16] p-2' type="text" placeholder='Name' name='name' />
+            <input data-aos="flip-left"className='m-3 my-4 p-2 bg-[#ccd6f6] shadow shadow-[#040c16]' type="email" placeholder='Email' name='email' />
+            <textarea data-aos="flip-down"className='m-3 bg-[#ccd6f6] shadow shadow-[#040c16] p-2' name="message" rows="10" placeholder='Message'></textarea>
             <button data-aos="flip-up" className='text-gray-300 md:text-veryDarkBlue border-2 shadow-md shadow-[#040c16] bg-pink-600 md:bg-transparent hover:text-gray-300 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center'>Let's Collaborate</button>
         </form>
     </div>
