@@ -25,8 +25,8 @@ const Navbar = () => {
   window.addEventListener('scroll', changeBackground);
 
   return (
-    <div className={navBar ? 'navbar bg-[#0a192f] h-[80px] fixed z-10 w-full flex justify-between items-center px-4 text-gray-300 font-orbitron' : 
-                              'navbar bg-transparent h-[80px] fixed z-10 w-full flex justify-between items-center px-4 text-veryDarkBlue font-orbitron'}
+    <div className={navBar ? 'navbar bg-[#0a192f] h-[80px] fixed top-0 z-10 w-full flex justify-between items-center px-4 text-gray-300 font-orbitron' : 
+                              'navbar bg-transparent h-[80px] fixed top-0 z-10 w-full flex justify-between items-center px-4 text-veryDarkBlue font-orbitron'}
     >
       <div className='md:mx-10 cursor-pointer'>
         <Link to='home' smooth={true} duration={500}>
