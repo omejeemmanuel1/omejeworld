@@ -161,7 +161,7 @@ const Navbar = () => {
       </div>
         <div className='lg:flex fixed flex-col top-[80%] right-0'>
          <Link to='home' smooth={true} duration={500}>
-         <button className='flex text-2xl rounded-full w-[60px] h-[60px] bg-pink-600 text-white group border-2 border-[#0a192f] px-1 py-3 my-2  md:bg-transparent hover:bg-pink-600 hover:border-pink-600'>
+         <button className='flex text-2xl rounded-full w-[60px] h-[60px] bg-pink-600 text-white group border-2 px-1 py-3 my-2  hover:bg-pink-500 hover:border-pink-600'>
                <HiHome />
             <span>
               <HiArrowNarrowUp />
