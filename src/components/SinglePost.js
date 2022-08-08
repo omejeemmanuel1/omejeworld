@@ -38,7 +38,7 @@ if (!singlePost) return <div>Loading...</div>;
   return (
     <div>
     <NavBar />
-    <main className='overflow-x-hidden bg-white min-h-screen p-12'>
+    <main className='overflow-x-hidden bg-white min-h-screen p-12 mt-10'>
       <article className="container shadow-lg mx-auto bg-[#f5f5f5] rounded-lg">
         <header className='relative'>
           <div className='absolute h-full w-full flex items-center justify-center p-8'>
