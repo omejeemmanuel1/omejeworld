@@ -19,6 +19,7 @@ useEffect(() => {
         title,
         _id,
         slug,
+        publishedAt,
         mainImage{
             asset->{
               _id,
@@ -45,6 +46,7 @@ if (!singlePost) return <div>Loading...</div>;
             <div className='bg-white bg-opacity-75 rounded p-6'>
               <h1 className='font-orbitron pt-10 text-sm md:text-3xl mb-4'>
                 {singlePost.title}
+                {singlePost.publishedAt}
               </h1>
               <div className='flex justify-center text-veryDarkBlue'>
                 <img 
