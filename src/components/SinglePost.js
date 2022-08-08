@@ -44,10 +44,10 @@ if (!singlePost) return <div>Loading...</div>;
         <header className='relative'>
           <div className='absolute h-full w-full flex items-center justify-center p-8'>
             <div className='bg-white bg-opacity-75 rounded p-6'>
-              <h1 className='font-orbitron pt-10 text-sm md:text-3xl mb-4'>
+              <h1 className='font-orbitron pt-20 text-sm md:text-3xl'>
                 {singlePost.title}
-                {singlePost.publishedAt}
               </h1>
+              <p className='p-6 text-sm text-right'>{singlePost.publishedAt}</p>
               <div className='flex justify-center text-veryDarkBlue'>
                 <img 
                       src={urlFor(singlePost.authorImage).url()} 
