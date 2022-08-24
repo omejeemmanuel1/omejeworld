@@ -47,7 +47,7 @@ if (!singlePost) return <div>Loading...</div>;
               <h1 className='font-orbitron pt-6 text-sm text-center md:text-3xl'>
                 {singlePost.title}
               </h1>
-              <p className='pt-6 text-sm text-right'>{singlePost.publishedAt}</p>
+              <p className='pt-6 text-sm text-right font-orbitron'>{new Date(singlePost.publishedAt).toLocaleDateString()}</p>
               <div className='flex justify-center text-veryDarkBlue'>
                 <img 
                       src={urlFor(singlePost.authorImage).url()} 
