@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { HiArrowNarrowDown } from 'react-icons/hi';
 import Aos from 'aos';
 import "aos/dist/aos.css";
-import Image from '../assets/me.png';
+import Image from '../assets/me.JPG';
 
 const About = () => {
    useEffect(() => {
@@ -16,7 +16,7 @@ const About = () => {
           <div className='pb-8 pl-4'>
             <p className='text-2xl font-bold inline border-b-4 border-pink-600 font-orbitron'>
               About Me
-              <img src={Image} alt="Emmanuel" className="rounded-full w-20 relative top-4 left-4 md:hidden" />
+              <img src={Image} alt="Emmanuel" className="rounded-full w-20 h-20 relative top-4 left-4 md:hidden" />
             </p>
           </div>
           </div>

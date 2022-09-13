@@ -27,7 +27,7 @@ export default function Project() {
           <h2 className='pl-4 text-gray-300 py-4 mb-12'>
             Welcome to my projects page!
             </h2>
-          <section data-aos="fade-up" className='md:grid grid-cols-2 gap-8'>
+          <section data-aos="fade-up" className='md:grid grid-cols-2 gap-8 mx-3'>
             {projectData && projectData.map((project, index)=> (
           <article className='relative rounded-lg shadow-md shadow-[#040c16] bg-[#f5f5f5] p-6  mb-10'>
             <h3 className='text-veryDarkBlue text-1xl md:text-3xl font-bold mb-2'>
