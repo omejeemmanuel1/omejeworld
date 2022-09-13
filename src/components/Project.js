@@ -21,16 +21,16 @@ export default function Project() {
     }, [])
   return (
     <div>
-    <main id="project" className='overflow-hidden bg-[#0a192f] min-h-screen p-12 pt-[50px]' name="projects">
+    <main id="project" className='overflow-hidden bg-[#0a192f] min-h-screen pt-[50px]' name="projects">
       <section className='container mx-auto'>
-          <h1 className='text-2xl md:text-3xl font-bold inline border-b-4 text-gray-300 border-pink-600 font-orbitron'>My projects</h1>
-          <h2 className='text-gray-300 py-4 mb-12'>
+          <h1 className='ml-4 text-2xl md:text-3xl font-bold inline border-b-4 text-gray-300 border-pink-600 font-orbitron'>My projects</h1>
+          <h2 className='pl-4 text-gray-300 py-4 mb-12'>
             Welcome to my projects page!
             </h2>
           <section data-aos="fade-up" className='md:grid grid-cols-2 gap-8'>
             {projectData && projectData.map((project, index)=> (
           <article className='relative rounded-lg shadow-md shadow-[#040c16] bg-[#f5f5f5] p-6  mb-10'>
-            <h3 className='text-veryDarkBlue text-2xl font-bold mb-2'>
+            <h3 className='text-veryDarkBlue text-1xl md:text-3xl font-bold mb-2'>
               <a 
                   href={project.link} 
                   alt={project.title}
