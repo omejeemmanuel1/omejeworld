@@ -30,13 +30,12 @@ export default function Project() {
           <section data-aos="fade-up" className='md:grid grid-cols-2 gap-8'>
             {projectData && projectData.map((project, index)=> (
           <article className='relative rounded-lg shadow-md shadow-[#040c16] bg-[#f5f5f5] p-6  mb-10'>
-            <h3 className='text-veryDarkBlue text-3xl font-bold mb-2'>
+            <h3 className='text-veryDarkBlue text-2xl font-bold mb-2'>
               <a 
                   href={project.link} 
                   alt={project.title}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className='text-4xl'
                   >
                   {project.title}
               </a>
