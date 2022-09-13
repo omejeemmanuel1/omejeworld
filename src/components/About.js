@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { HiArrowNarrowDown } from 'react-icons/hi';
 import Aos from 'aos';
 import "aos/dist/aos.css";
+import Image from '../assets/me1.png';
 
 const About = () => {
    useEffect(() => {
@@ -15,6 +16,7 @@ const About = () => {
           <div className='sm:text-right pb-8 pl-4'>
             <p className='text-2xl font-bold text-justify inline border-b-4 border-pink-600 font-orbitron'>
               About Me
+              <img src={Image} alt="Emmanuel" className="rounded-full w-20 relative top-4 md:hidden" />
             </p>
           </div>
           </div>
@@ -30,7 +32,7 @@ const About = () => {
             </div>
           </div>
           <button data-aos="flip-up" className='mt-10 justify-center text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
-            <a href="../assets/my resume.pdf" download>My Resume</a>
+            <a href="../assets/My resume.pdf" download>My Resume</a>
             <span className='group-hover:rotate-90 duration-300'>
               <HiArrowNarrowDown className='ml-3 ' />
             </span>
