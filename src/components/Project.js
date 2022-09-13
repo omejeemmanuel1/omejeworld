@@ -36,6 +36,7 @@ export default function Project() {
                   alt={project.title}
                   target="_blank"
                   rel="noopener noreferrer"
+                  className='text-4xl'
                   >
                   {project.title}
               </a>
