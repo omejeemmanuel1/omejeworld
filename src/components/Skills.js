@@ -22,7 +22,7 @@ const Skills = () => {
   return (
     <div  id="skills" name='skills' className='overflow-hidden w-full min-h-screen md:pt-[500px]  bg-[#f5f5f5] text-gray-300'>
       {/* Container */}
-      <div className='max-w-[1000px] mx-auto  p-4 flex flex-col justify-center w-full h-full  md:-mt-[200px]'>
+      <div className='max-w-[1000px] mx-auto  p-4 flex flex-col justify-center w-full h-full  md:-mt-[400px]'>
           <div className='text-veryDarkBlue  md:-mt-0'>
               <p className='text-2xl md:text-3xl font-bold inline border-b-4 border-pink-600 font-orbitron'>My Skills</p>
               <p className='py-4'>These are the technologies I've worked with</p>
