@@ -9,6 +9,7 @@ import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
 import Mongo from '../assets/mongo.png';
 import Php from '../assets/php.svg';
+import Bootstrap from '../assets/bootstrap.png';
 import "../App.css";
 import Aos from 'aos';
 import "aos/dist/aos.css";
@@ -33,23 +34,23 @@ const Skills = () => {
                   <p className='my-4'>HTML</p>
               </div>
               <div data-aos="fade-left" className='shadow-md shadow-[#040c16] md:hover:scale-110 duration-500 bg-[#0a192f] '>
-                  <img className='w-20 mx-auto' src={CSS} alt="HTML icon" />
+                  <img className='w-20 mx-auto' src={CSS} alt="CSS icon" />
                   <p className='my-4'>CSS</p>
               </div>
               <div data-aos="fade-left" className='shadow-md shadow-[#040c16] md:hover:scale-110 duration-500 bg-[#0a192f] '>
-                  <img className='w-20 mx-auto' src={JavaScript} alt="HTML icon" />
+                  <img className='w-20 mx-auto' src={JavaScript} alt="Javascript icon" />
                   <p className='my-4'>JAVASCRIPT</p>
               </div>
               <div data-aos="fade-left" className='shadow-md shadow-[#040c16] md:hover:scale-110 duration-500 bg-[#0a192f] '>
-                  <img className='w-20 mx-auto' src={ReactImg} alt="HTML icon" />
+                  <img className='w-20 mx-auto' src={ReactImg} alt="React icon" />
                   <p className='my-4'>REACT</p>
               </div>
               <div data-aos="fade-right" className='shadow-md shadow-[#040c16] md:hover:scale-110 duration-500 bg-[#0a192f] '>
-                  <img className='w-20 mx-auto' src={GitHub} alt="HTML icon" />
+                  <img className='w-20 mx-auto' src={GitHub} alt="GitHub icon" />
                   <p className='my-4'>GITHUB</p>
               </div>
               <div data-aos="fade-right" className='shadow-md shadow-[#040c16] md:hover:scale-110 duration-500 bg-[#0a192f] '>
-                  <img className='w-20 mx-auto' src={Node} alt="icon" />
+                  <img className='w-20 mx-auto' src={Node} alt="Node js icon" />
                   <p className='my-4'>NODE JS</p>
               </div>
               <div data-aos="fade-right" className='shadow-md shadow-[#040c16] md:hover:scale-110 duration-500 bg-[#0a192f] '>
@@ -58,15 +59,19 @@ const Skills = () => {
               </div>
               <div data-aos="fade-right" className='shadow-md shadow-[#040c16] md:hover:scale-110 duration-500 bg-[#0a192f] '>
                   <img className='w-20 mx-auto' src={FireBase} alt="Firebase icon" />
-                  <p className='my-4'>FireBase</p>
+                  <p className='my-4'>FIREBASE</p>
               </div>
               <div data-aos="fade-left" className='shadow-md shadow-[#040c16] md:hover:scale-110 duration-500 bg-[#0a192f] '>
-                  <img className='w-20 mx-auto' src={Tailwind} alt="Firebase icon" />
-                  <p className='my-4'>Tailwind</p>
+                  <img className='w-20 mx-auto' src={Tailwind} alt="Tailwind icon" />
+                  <p className='my-4'>TAILWIND</p>
               </div>
               <div data-aos="fade-left" className='shadow-md shadow-[#040c16] md:hover:scale-110 duration-500 bg-[#0a192f] '>
-                  <img className='w-20 mx-auto' src={Php} alt="Firebase icon" />
-                  <p className='my-4'>Php</p>
+                  <img className='w-20 mx-auto' src={Php} alt="Php icon" />
+                  <p className='my-4'>PHP</p>
+              </div>
+              <div data-aos="fade-left" className='shadow-md shadow-[#040c16] md:hover:scale-110 duration-500 bg-[#0a192f] '>
+                  <img className='w-20 mx-auto' src={Bootstrap} alt="Bootstrap icon" />
+                  <p className='my-4'>BOOTSTRAP</p>
               </div>
             
           </div>
