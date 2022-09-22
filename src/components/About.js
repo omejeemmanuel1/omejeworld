@@ -10,7 +10,7 @@ const About = () => {
     }, [])
 
   return (
-    <div id="about" name='about' className='w-full overflow-hidden h-[700px] md:h-[500px] bg-[#0a192f]  md:pt-[150px] -mt-[20px] md:-mt-0 text-gray-300'>
+    <div id="about" name='about' className='w-full overflow-hidden min-h-screen md:h-[500px] bg-[#0a192f]  md:pt-[150px] -mt-[20px] md:-mt-0 text-gray-300'>
       <div className='flex flex-col justify-center items-center w-full h-full'>
         <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8  md:-mt-[200px]'>
           <div className='pb-8 pl-4'>
