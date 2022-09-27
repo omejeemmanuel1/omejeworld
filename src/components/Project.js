@@ -21,7 +21,7 @@ export default function Project() {
     }, [])
   return (
     <div>
-    <main id="project" className='overflow-hidden bg-[#0a192f] min-h-screen pt-[50px]' name="projects">
+    <main id="project" className='overflow-hidden bg-[#0a192f] min-h-screen md:pt-[150px] pt-[100px]' name="projects">
       <section className='container mx-auto'>
           <h1 className='ml-4 text-2xl md:text-3xl font-bold inline border-b-4 text-gray-300 border-pink-600 font-orbitron'>My projects</h1>
           <h2 className='pl-4 text-gray-300 py-4 mb-12'>

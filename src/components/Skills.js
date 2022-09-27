@@ -20,7 +20,7 @@ const Skills = () => {
         Aos.init({duration:3000})
     }, [])
   return (
-    <div  id="skills" name='skills' className='overflow-hidden w-full min-h-screen md:pt-[500px]  bg-[#f5f5f5] text-gray-300'>
+    <div  id="skills" name='skills' className='overflow-hidden w-full min-h-screen md:pt-[500px] pt-[100px]  bg-[#f5f5f5] text-gray-300'>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto  p-4 flex flex-col justify-center w-full h-full  md:-mt-[400px]'>
           <div className='text-veryDarkBlue  md:-mt-0'>
