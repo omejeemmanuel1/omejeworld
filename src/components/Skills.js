@@ -57,10 +57,6 @@ const Skills = () => {
                   <img className='w-20 mx-auto' src={Mongo} alt="Mongodb icon" />
                   <p className='my-4'>MONGO DB</p>
               </div>
-              <div data-aos="fade-right" className='shadow-md shadow-[#040c16] md:hover:scale-110 duration-500 bg-[#0a192f] '>
-                  <img className='w-20 mx-auto' src={FireBase} alt="Firebase icon" />
-                  <p className='my-4'>FIREBASE</p>
-              </div>
               <div data-aos="fade-left" className='shadow-md shadow-[#040c16] md:hover:scale-110 duration-500 bg-[#0a192f] '>
                   <img className='w-20 mx-auto' src={Tailwind} alt="Tailwind icon" />
                   <p className='my-4'>TAILWIND</p>
