@@ -19,5 +19,5 @@
 
 .app {
   overflow-x: hidden;
-  overflow: y;
+  overflow:auto;
 }
