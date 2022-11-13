@@ -8,10 +8,10 @@ import {
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { Link } from 'react-scroll';
-import { HiArrowNarrowUp, HiHome} from 'react-icons/hi';
+import {  HiHome} from 'react-icons/hi';
 import '../App.css';
 import Image from '../assets/omeje.png';
-import { NavLink} from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 
 const Navbar = () => {
@@ -161,11 +161,8 @@ const Navbar = () => {
       </div>
         <div className='lg:flex fixed flex-col top-[80%] right-0'>
          <Link to='home' smooth={true} duration={500}>
-         <button className='flex text-2xl rounded-full w-[60px] h-[60px] bg-pink-600 text-white group border-2 px-1 py-3 my-2  hover:bg-pink-500 hover:border-pink-600'>
+         <button className='flex pl-2 text-4xl rounded-full w-[60px] h-[60px] bg-pink-600 text-white group border-2 px-1 py-3 my-2  hover:bg-pink-500 hover:border-pink-600'>
                <HiHome />
-            <span>
-              <HiArrowNarrowUp />
-            </span>
             </button>
           </Link>
     </div>
