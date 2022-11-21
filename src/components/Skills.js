@@ -3,14 +3,11 @@ import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
-import Node from '../assets/node.png';
 import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
-import Mongo from '../assets/mongo.png';
 import Php from '../assets/php.svg';
 import Bootstrap from '../assets/bootstrap.png';
-import Solidity from '../assets/solidity.png';
-import Ethers from '../assets/ethers.png';
+import Mysql from '../assets/mysql.png';
 import "../App.css";
 import Aos from 'aos';
 import "aos/dist/aos.css";
@@ -50,14 +47,6 @@ const Skills = () => {
                   <img className='w-20 mx-auto' src={GitHub} alt="GitHub icon" />
                   <p className='my-4'>GITHUB</p>
               </div>
-              <div data-aos="fade-right" className='shadow-md shadow-[#040c16] md:hover:scale-110 duration-500 bg-[#0a192f] '>
-                  <img className='w-20 mx-auto' src={Node} alt="Node js icon" />
-                  <p className='my-4'>NODE JS</p>
-              </div>
-              <div data-aos="fade-right" className='shadow-md shadow-[#040c16] md:hover:scale-110 duration-500 bg-[#0a192f] '>
-                  <img className='w-20 mx-auto' src={Mongo} alt="Mongodb icon" />
-                  <p className='my-4'>MONGO DB</p>
-              </div>
               <div data-aos="fade-left" className='shadow-md shadow-[#040c16] md:hover:scale-110 duration-500 bg-[#0a192f] '>
                   <img className='w-20 mx-auto' src={Tailwind} alt="Tailwind icon" />
                   <p className='my-4'>TAILWIND</p>
@@ -70,17 +59,10 @@ const Skills = () => {
                   <img className='w-20 mx-auto' src={Bootstrap} alt="Bootstrap icon" />
                   <p className='my-4'>BOOTSTRAP</p>
               </div>
-            
-              <div data-aos="fade-left" className='shadow-md shadow-[#040c16] md:hover:scale-110 duration-500 bg-[#0a192f] '>
-                  <img className='w-20 mx-auto' src={Solidity} alt="Solidity icon" />
-                  <p className='my-4'>Solidity</p>
+               <div data-aos="fade-left" className='shadow-md shadow-[#040c16] md:hover:scale-110 duration-500 bg-[#0a192f] '>
+                  <img className='w-20 mx-auto' src={Mysql} alt="MySQL icon" />
+                  <p className='my-4'>MySQL</p>
               </div>
-            
-              <div data-aos="fade-left" className='shadow-md shadow-[#040c16] md:hover:scale-110 duration-500 bg-[#0a192f] '>
-                  <img className='w-20 mx-auto' src={Ethers} alt="Ether icon" />
-                  <p className='my-4'>Ether.js</p>
-              </div>
-            
           </div>
       </div>
     </div>
