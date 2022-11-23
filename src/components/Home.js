@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from '../assets/me1.png';
-import Typewriter from 'typewriter-effect';
+//import Typewriter from 'typewriter-effect';
 import { HiArrowNarrowRight} from 'react-icons/hi';
 import { Link } from 'react-scroll';
 import '../App.css';
