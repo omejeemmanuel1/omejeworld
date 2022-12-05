@@ -19,14 +19,14 @@ const Home = () =>{
         <div className="overflow-hidden w-full mx-auto container flex flex-col-reverse  pt-10 items-center px-6 space-y-0 md:space-y-0 font-pacifico md:flex-row">
             <div className="flex flex-col mb-32 space-y-12 md:w-1/2">
                 <h1 className="pr-2 pb-2max-w-md pt-20 text-5xl text-center md:text-5xl md:text-left text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-gray-300">
-                    Hello, I'm Emmanuel. I'm a frontend software engineer, a DevOPs engineer, and a graduate of computer science...
+                    Hello, I'm Emmanuel. I'm a frontend software engineer, Mern Stack and blockchain developer 
                 </h1>
                 <p className="max-w-sm text-center text-sky-100 md:text-left">
                     {/*<Typewriter onInit= {(typewriter) => {
                     typewriter.typeString("I started coding since 2018 and I have been learning to be  good in it. I'm always eager to learn new technology and work with smart minds so we can build and develop together.")
                     .start()
                     }} />*/}
-                    I started coding since 2018 and I have been learning to be  good in it. I'm always eager to learn new technology 
+                    I started coding since 2017 and I have been learning to be  good in it. I'm always eager to learn new technology 
                     and work with smart minds so we can build and develop together.
                 </p>
                  <div>

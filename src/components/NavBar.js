@@ -12,6 +12,7 @@ import {  HiHome} from 'react-icons/hi';
 import '../App.css';
 import Image from '../assets/omeje.png';
 import { NavLink } from "react-router-dom";
+import Resume from '../assets/My resume.pdf';
 
 
 const Navbar = () => {
@@ -153,8 +154,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href="../assets/my resume.pdf" download="Emmanuel Omeje CVgit ">
-              Resume <BsFillPersonLinesFill size={30} />
+              href={Resume} download="My Resume.pdf">Resume<BsFillPersonLinesFill size={30} />
             </a>
           </li>
         </ul>

@@ -8,6 +8,10 @@ import Tailwind from '../assets/tailwind.png';
 import Php from '../assets/php.svg';
 import Bootstrap from '../assets/bootstrap.png';
 import Mysql from '../assets/mysql.png';
+import Ether from '../assets/ethers.png';
+import Solidity from '../assets/solidity.png';
+import Firebase from '../assets/firebase.png';
+import Node from '../assets/node.png';
 import "../App.css";
 import Aos from 'aos';
 import "aos/dist/aos.css";
@@ -62,6 +66,22 @@ const Skills = () => {
                <div data-aos="fade-left" className='shadow-md shadow-[#040c16] md:hover:scale-110 duration-500 bg-[#0a192f] '>
                   <img className='w-20 mx-auto' src={Mysql} alt="MySQL icon" />
                   <p className='my-4'>MySQL</p>
+              </div>
+              <div data-aos="fade-left" className='shadow-md shadow-[#040c16] md:hover:scale-110 duration-500 bg-[#0a192f] '>
+                  <img className='w-20 mx-auto' src={Ether} alt="Ether icon" />
+                  <p className='my-4'>Ether.js</p>
+              </div>
+              <div data-aos="fade-left" className='shadow-md shadow-[#040c16] md:hover:scale-110 duration-500 bg-[#0a192f] '>
+                  <img className='w-20 mx-auto' src={Solidity} alt="Solidiy icon" />
+                  <p className='my-4'>Solidity</p>
+              </div>
+              <div data-aos="fade-left" className='shadow-md shadow-[#040c16] md:hover:scale-110 duration-500 bg-[#0a192f] '>
+                  <img className='w-20 mx-auto' src={Node} alt="Node icon" />
+                  <p className='my-4'>Node JS</p>
+              </div>
+              <div data-aos="fade-left" className='shadow-md shadow-[#040c16] md:hover:scale-110 duration-500 bg-[#0a192f] '>
+                  <img className='w-20 mx-auto' src={Firebase} alt="Firebase icon" />
+                  <p className='my-4'>Firebase</p>
               </div>
           </div>
       </div>
