@@ -2,7 +2,7 @@
 
 ## My portfolio using sanity
 
-## Added blog post with sanity
+## Added blog post with sanity, Latest news tab
 
 - Home
 - NavBar
