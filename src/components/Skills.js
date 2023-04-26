@@ -8,6 +8,8 @@ import Tailwind from '../assets/tailwind.png';
 import Php from '../assets/php.svg';
 import Bootstrap from '../assets/bootstrap.png';
 import Mysql from '../assets/mysql.png';
+import Graph from '../assets/graph.png';
+import Fire from '../assets/firebase.png';
 import Typescript from '../assets/typescript.png';
 import Mongo from '../assets/mongo.png';
 import Node from '../assets/node.png';
@@ -77,6 +79,14 @@ const Skills = () => {
               <div data-aos="fade-left" className='shadow-md shadow-[#040c16] md:hover:scale-110 duration-500 bg-[#0a192f] '>
                   <img className='w-20 mx-auto' src={Node} alt="Node icon" />
                   <p className='my-4'>Node JS</p>
+              </div>
+              <div data-aos="fade-left" className='shadow-md shadow-[#040c16] md:hover:scale-110 duration-500 bg-[#0a192f] '>
+                  <img className='w-20 mx-auto' src={Graph} alt="Graphql icon" />
+                  <p className='my-4'>GraphQl</p>
+              </div>
+              <div data-aos="fade-left" className='shadow-md shadow-[#040c16] md:hover:scale-110 duration-500 bg-[#0a192f] '>
+                  <img className='w-20 mx-auto' src={Fire} alt="Firebase icon" />
+                  <p className='my-4'>Firebase</p>
               </div>
           </div>
       </div>
